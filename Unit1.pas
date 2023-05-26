@@ -34,6 +34,7 @@ type
     ZQuery1alamat: TStringField;
     ZQuery1kota: TStringField;
     ZQuery1kodepos: TStringField;
+    btn6: TButton;
     procedure FormShow(Sender: TObject);
     procedure dbgrd1CellClick(Column: TColumn);
   private

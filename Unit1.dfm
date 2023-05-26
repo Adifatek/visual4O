@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 309
-  Top = 81
+  Left = 276
+  Top = 172
   Width = 800
   Height = 560
   Caption = 'Form1'
@@ -233,6 +233,14 @@ object Form1: TForm1
     TitleFont.Style = []
     OnCellClick = dbgrd1CellClick
   end
+  object btn6: TButton
+    Left = 672
+    Top = 232
+    Width = 75
+    Height = 41
+    Caption = 'btn6'
+    TabOrder = 11
+  end
   object ZConnection1: TZConnection
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
@@ -240,11 +248,11 @@ object Form1: TForm1
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'db_visual2'
+    Database = 'db_lsp'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 
-      'C:\Users\Home-PC\Videos\2023\BAHAN NGAJAR\latihan visual 4O\libm' +
+      'C:\Users\Home-PC\Videos\2023\BAHAN-NGAJAR\latihan_visual_4O\libm' +
       'ysql.dll'
     Left = 88
     Top = 328
